@@ -10,12 +10,12 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
--- Дамп структуры базы данных seopult
-CREATE DATABASE IF NOT EXISTS `seopult` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `seopult`;
+-- Дамп структуры базы данных tlw_db
+CREATE DATABASE IF NOT EXISTS `tlw_db` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `tlw_db`;
 
 
--- Дамп структуры для таблица seopult.letter
+-- Дамп структуры для таблица tlw_db.letter
 CREATE TABLE IF NOT EXISTS `letter` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `letter` varchar(50) NOT NULL,
@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `letter` (
 -- Экспортируемые данные не выделены.
 
 
--- Дамп структуры для таблица seopult.word_1
+-- Дамп структуры для таблица tlw_db.word_1
 CREATE TABLE IF NOT EXISTS `word_1` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `word` varchar(50) NOT NULL,
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `word_1` (
 -- Экспортируемые данные не выделены.
 
 
--- Дамп структуры для таблица seopult.word_2
+-- Дамп структуры для таблица tlw_db.word_2
 CREATE TABLE IF NOT EXISTS `word_2` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `word` varchar(50) NOT NULL,
