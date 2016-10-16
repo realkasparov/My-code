@@ -1,1 +1,1 @@
-# Automated billing system
+# Automated billing system for CodeIgniter
