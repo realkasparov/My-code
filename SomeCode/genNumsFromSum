@@ -1,0 +1,20 @@
+<?php
+$num = 415;
+$count = strlen($num);
+$sum = array_sum(str_split($num));
+$arr = [];
+
+for($i = 0; $i < $count; $i++){
+	if($sum > 9){
+		$arr[$i] = rand(0, 9);
+		$sum -= $arr[$i];
+		echo $arr[$i];
+	}elseif($i == ($count - 1)){
+		$arr[$i] = $sum;
+		echo $arr[$i];
+	}else{
+		$arr[$i] = rand(0, $sum);
+		$sum -= $arr[$i];
+		echo $arr[$i];
+	}
+}
